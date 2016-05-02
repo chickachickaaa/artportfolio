@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<head>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
+<link href="frontPageWebsite.css" rel="stylesheet" type="text/css" media="all"></link>
+<script type="text/javascript" src="jquery-1.12.0.js"></script>
+<script type="text/javascript" src="frontPageWebsite.controller.js"></script>
+  <title>Taylor Ann Keira Higgins</title>
+  <style>
+    /* mouse over link */
+    a:hover {
+      color: red;
+    }
+    body {
+
+      text-align: center;
+
+      background-image: url("websiteBackground.jpeg");
+
+      background-size: cover;
+      background-position: center;
+      color: black;
+      font-family: avenir;
+   }
+    p {
+      font-size: 20px;
+    }
+
+    input {
+      border: 2;
+      padding: 10px;
+      font-size: 14px;
+      width: 300px;
+    }
+    input[type="submit"] {
+      background: aqua;
+      color: white;
+      border: 2;
+      padding: 10px;
+      font-size: 14px;
+      width: 100px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="main-wrapper">
+    <header class="main-header">
+      <ul class="main-nav">
+        <li><a href="#">My most proud</a></li>
+        <li><a href="#">Took me the longest</a></li>
+        <li><a href="#">Other People Love</a></li>
+        <li><a href="#">boopityboop</a></li>
+      </ul>
+    </header>
+
+  <!--not sure if this below is supposed to be in a separate php file said html... looked like html...
+  ?php include_once("processed/svg-defs.svg"); //setting up for grunt and php but don't care right now just want to do my icon css hover stuff// -->
+  <img alt="tay_prf.jpg" src="websiteProfile.jpeg"/>
+  <p>Welcome! I'm Taylor. You've wandered onto my holding space for architecture work, doodles, "fine" art, floristry, garments, fermentations, coding projects, essays, poems, and novel characters. I hope you have as much fun exploring as I had creating. I'd love to see your work so please add a link or note in the comment cart.  Cheers! </p>
+
+  <input type="text" placeholder="your fancy fun low-key or high-brow work...">
+  <input type="submit">
+
+  <div class="flex-container">
+  <div class="flex-item"><img src="city.svg"><a href="architectureWork.html">arch</a></div>
+  <div class="flex-item"><a href="FineArt.html">fine art</a></div>
+  <div class="flex-item"><a href="Doodles.html">doodles</a></div>
+  <div class="flex-item">floristry</div>
+  <div class="flex-item">tailoring</div>
+  <div class="flex-item">fermentations</div>
+  <div class="flex-item">coding</div>
+  <div class="flex-item">characters</div>
+  <!--
+  <div class="flex-item">trips</div>
+  <div class="flex-item">essays</div>
+  <div class="flex-item">volunteer</div>
+  <div class="flex-item">quotes</div>-->
+  </div>
+  <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+
+  <!--ul id="Connect the freckles?">
+    <li>arch</li>
+    <li>fine</li>
+    <li>floristry</li>
+    <li>doodles</li>
+    <li>gourmet</li>
+    <li>ferment</li>
+    <li>coding</li>
+    <li>essays</li>
+    <li>characters</li>
+    <li>trips</li>
+    <li>volunteer</li>
+    <li>quotes</li>
+  </ul-->
+
+  <!--<ul>
+    <li>
+  <table cellpadding="4" cellspacing="4" border="1">
+    <tr>
+        <td valign="top">
+            <table cellpadding="4" cellspacing="4" border="0">
+                <thead>
+                    <tr>
+                        <td colspan="2">
+                            Your Thoughts
+                        </td>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <td>
+                            Your say
+                        </td>
+                        <td>
+                            <input type="input" value="" onclick="AddtoCart('comment','words',100000)"/>
+                        </td>
+                    </tr>
+
+            </table>
+        </td>
+        <td valign="top">
+            <table cellpadding="4" cellspacing="4" border="1" id="orderedProductsTbl">
+                <thead>
+                    <tr>
+                        <td>
+                            Name
+                        </td>
+                        <td>
+                            Description
+                        </td>
+                        <td>
+                            Price
+                        </td>
+                    </tr>
+                </thead>
+                <tbody id="orderedProductsTblBody">
+
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3" align="right" id="cart_total">
+
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </td>
+    </tr>
+  </table>-->
+</body>

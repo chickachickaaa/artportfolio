@@ -1,3 +1,27 @@
+a:link {
+  color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: transparent;
+  text-decoration: none;
+
+}
+
+
+
+
 
 .flex-container {
   /*display: -webkit-flex;*/
@@ -12,7 +36,77 @@
   padding-right: 90px;
 
 }
-.flex-item{
+.flex-item1{
+  /*-webkit-flex: 1;*/
+  /* I don't get order*/
+
+  order: 1;
+  flex: 1;
+  flex-basis: 20%;
+  max-width: 1000px;
+  min-width: 100px;
+  align-self: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+
+  }
+
+/*.flex-item1 p {
+  display: none;
+}
+
+.flex-item1 p:hover {
+  display: inline-flex;
+}
+.flex-item1:hover > a:link   {
+  display: block;
+}
+.flex-item1 > a > img       {
+  display: inline;
+}
+flex-item1:hover > img {
+  display: inline;
+}*/
+
+
+
+/*.flex-item1:hover {
+      background-image: "cityscape.png";
+
+
+ }*/
+
+
+
+.flex-item2{
+  /*-webkit-flex: 1;*/
+  /* I don't get order */
+  order: 1;
+  flex: 1;
+  flex-basis: 20%;
+  max-width: 1000px;
+  min-width: 100px;
+  align-self: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+.flex-item2 > img       {
+  display: none;
+}
+.flex-item2:hover > img {
+  display: inline;
+}
+.flex-item2:hover > a   {
+  display: none;
+}
+
+.flex-item3{
   /*-webkit-flex: 1;*/
   /* I don't get order */
   order: 1;
@@ -28,8 +122,142 @@
 
 }
 
-.flex-item{
-  background-image: url("city.svg");
+.flex-item3 > img       {
+  display: none;
+}
+.flex-item3:hover > img {
+  display: inline;
+}
+.flex-item3:hover > a   {
+  display: none;
+}
+
+.flex-item4{
+  /*-webkit-flex: 1;*/
+  /* I don't get order */
+  order: 1;
+  flex: 1;
+  flex-basis: 20%;
+  max-width: 1000px;
+  min-width: 100px;
+  align-self: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+
+}
+
+.flex-item4 > img       {
+  display: none;
+}
+.flex-item4:hover > img {
+  display: inline;
+}
+.flex-item4:hover > a   {
+  display: none;
+}
+
+
+.flex-item5{
+  /*-webkit-flex: 1;*/
+  /* I don't get order */
+  order: 1;
+  flex: 1;
+  flex-basis: 20%;
+  max-width: 1000px;
+  min-width: 100px;
+  align-self: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+  .flex-item5 > img       {
+  display: none;
+}
+.flex-item5:hover > img {
+  display: inline;
+}
+.flex-item5:hover > a   {
+  display: none;
+}
+
+.flex-item6{
+  /*-webkit-flex: 1;*/
+  /* I don't get order */
+  order: 1;
+  flex: 1;
+  flex-basis: 20%;
+  max-width: 1000px;
+  min-width: 100px;
+  align-self: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+.flex-item6 > img       {
+  display: none;
+}
+.flex-item6:hover > img {
+  display: inline;
+}
+.flex-item6:hover > a   {
+  display: none;
+}
+
+.flex-item7{
+  /*-webkit-flex: 1;*/
+  /* I don't get order */
+  order: 1;
+  flex: 1;
+  flex-basis: 20%;
+  max-width: 1000px;
+  min-width: 100px;
+  align-self: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+.flex-item7 > img       {
+  display: none;
+}
+.flex-item7:hover > img {
+  display: inline;
+}
+.flex-item7:hover > a   {
+  display: none;
+}
+
+.flex-item8{
+  /*-webkit-flex: 1;*/
+  /* I don't get order */
+  order: 1;
+  flex: 1;
+  flex-basis: 20%;
+  max-width: 1000px;
+  min-width: 100px;
+  align-self: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+.flex-item8 > img       {
+  display: none;
+}
+.flex-item8:hover > img {
+  display: inline;
+}
+.flex-item8:hover > a   {
+  display: none;
 }
 
 .main-header {
@@ -39,4 +267,18 @@
   top: 0;
   z-index: 100;
 }
+
+
+/*.magic-text {
+  display: none;
+}
+
+.magic-text:hover {
+  display: inline;
+}
+
+.magic-image {
+  display: inline;
+}*/
+
 
